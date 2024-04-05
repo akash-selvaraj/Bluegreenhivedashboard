@@ -66,6 +66,7 @@ export default function AppCurrentSubject({ title, subheader, chart, ...other })
         options={chartOptions}
         width="100%"
         height={340}
+        className='bg-green-100'
       />
     </Card>
   );

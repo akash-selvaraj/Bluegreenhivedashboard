@@ -18,7 +18,7 @@ import Scrollbar from 'src/components/scrollbar';
 
 export default function AppNewsUpdate({ title, subheader, list, ...other }) {
   return (
-    <Card {...other}>
+    <Card {...other} className='bg-green-100'>
       <CardHeader title={title} subheader={subheader} />
 
       <Scrollbar>

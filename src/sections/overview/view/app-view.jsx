@@ -24,6 +24,7 @@ export default function AppView() {
             total={714000}
             color="success"
             icon={<img alt="icon" src="/assets/icons/glass/ic_glass_bag.png" />}
+            className='bg-blue-100'
           />
         </Grid>
 

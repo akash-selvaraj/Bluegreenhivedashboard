@@ -16,7 +16,7 @@ import { fDateTime } from 'src/utils/format-time';
 
 export default function AnalyticsOrderTimeline({ title, subheader, list, ...other }) {
   return (
-    <Card {...other}>
+    <Card {...other} className='bg-green-100'>
       <CardHeader title={title} subheader={subheader} />
 
       <Timeline

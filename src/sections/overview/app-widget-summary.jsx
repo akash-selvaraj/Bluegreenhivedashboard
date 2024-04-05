@@ -12,6 +12,7 @@ import { fShortenNumber } from 'src/utils/format-number';
 export default function AppWidgetSummary({ title, total, icon, color = 'primary', sx, ...other }) {
   return (
     <Card
+      className='bg-green-100 rounded-lg'
       component={Stack}
       spacing={3}
       direction="row"
